@@ -8,6 +8,8 @@ if (nargin < 4)
       maxbond = 0.95;
    elseif (((z1 == 1) && (z2 == 6)) || ((z1 == 6) && (z2 == 1)))
       maxbond = 1.3;
+   elseif (((z1 == 6) && (z2 == 9)) || ((z1 == 9) && (z2 == 6)))
+      maxbond = 1.54;
    else % C and C
       maxbond = 1.75;
    end
